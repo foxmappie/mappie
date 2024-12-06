@@ -1,0 +1,111 @@
+.mainEstacoes {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    background-color: #fab905;
+    
+}
+
+.divEstacoes {
+    display: flex;
+    height: 100%;
+position: absolute;
+    z-index: 1;
+    background-color: rgb(255, 251, 248 0.8);
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    
+    
+}
+
+.divPops {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 100%;
+    background-color: rgb(255, 251, 248 0.8);
+
+}
+
+.divPops:hover {
+    width: 200px;
+    height: 100%;
+
+    transition: width 0.5s ease; 
+  
+}
+
+.divSites {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 5px 0 0 5px;
+    opacity: 1;
+    
+
+}
+
+.divSites:hover {
+    width: 195px;
+}
+
+.site {
+    display: flex;
+    background-color: aliceblue;
+    border: 1px solid #fab905;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    white-space: nowrap;
+    align-items: center;
+    transition: width 0.5s ease; 
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 9pt;
+}
+.site:hover {
+    width: 190px;
+}
+
+.siteImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid #ff6600;
+    
+}
+.siteNome {
+    display: flex;
+    color: rgb(0, 0, 0);
+    left: 50px;
+    height: 100%;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px 0 20px;
+    border-radius: 20px;
+}
+
+
+.addPop {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.popsForm {
+    display: flex;
+    background-color: white;
+    height: 100%;
+    width: 300px;  
+    position: absolute; 
+    z-index: 103;
+    right: 0;
+}

@@ -1,0 +1,21 @@
+.tipos {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.menuTipos {
+    width: 15%;
+    background-color: rgb(255, 248, 240);
+}
+
+.topoTipos {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 85%;
+    height: 50px;
+}

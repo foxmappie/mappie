@@ -1,0 +1,59 @@
+.Main {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 95%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.divMapa {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+
+.menuDefault {
+    background-color: yellow;
+    list-style: none;
+    
+
+}
+
+.menuDefault li {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    
+}
+
+
+.menuDefault li a{
+    text-decoration: none;
+    background-color: rgb(255, 218, 188);
+    padding-left: 1em;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    color: rgb(51, 51, 51);
+    font-size: 14pt;
+}
+
+.menuDefault li a:hover {
+    background-color: rgb(255, 171, 115);
+}
+
+.menuDefault li a:active{
+    background-color: rgb(255, 115, 33);
+    
+}

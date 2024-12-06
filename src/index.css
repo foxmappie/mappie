@@ -1,0 +1,12 @@
+* {
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'system-ui';
+  text-size-adjust: 12pt;
+}
+
+html, body, #root {
+  background-color: #efefef;
+  height: 100%;
+}
